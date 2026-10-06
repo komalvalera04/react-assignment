@@ -13,6 +13,7 @@ import DealsPage from "./Session9/DealsPage";
 import CartPage from "./Session9/CartPage";
 import NotFound from "./Session9/NotFound";
 import Session6 from "./Session6/Session6";
+import Session10 from "./Session10/Session10";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/session6" element={<><Session6/></>}></Route>
           <Route path="/session7" element={<><Session7/></>}></Route>
           <Route path="/session8" element={<><Session8/></>}></Route>
+          <Route path="/session10" element={<><Session10/></>}></Route>
           {/* <Route path="/session9" element={<><Session9/></>}></Route> */}
           <Route path="/home" element={<HomePage />}></Route>
           <Route path="/deals" element={<DealsPage />}></Route>

@@ -13,6 +13,7 @@ function Navigation() {
           <li><NavLink to="/session7">Session-7</NavLink></li>
           <li><NavLink to="/session8">Session-8</NavLink></li>
           <li><NavLink to="/home">Session-9</NavLink></li>
+          <li><NavLink to="/session10">Session-10</NavLink></li>
         </ul>
       </div>
     </div>
