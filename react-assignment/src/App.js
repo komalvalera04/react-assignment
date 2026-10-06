@@ -14,6 +14,8 @@ import CartPage from "./Session9/CartPage";
 import NotFound from "./Session9/NotFound";
 import Session6 from "./Session6/Session6";
 import Session10 from "./Session10/Session10";
+import Session11 from "./Session11/Session11";
+import Session12 from "./Session12/Session12";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/session8" element={<><Session8/></>}></Route>
           <Route path="/session10" element={<><Session10/></>}></Route>
           {/* <Route path="/session9" element={<><Session9/></>}></Route> */}
+          <Route path="/session11" element={<><Session11/></>}></Route>
+          <Route path="/session12" element={<><Session12/></>}></Route>
           <Route path="/home" element={<HomePage />}></Route>
           <Route path="/deals" element={<DealsPage />}></Route>
           <Route path="/cart" element={<CartPage />}></Route>
